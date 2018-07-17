@@ -1,0 +1,21 @@
+<resources>
+
+    <!--
+
+         values-sw600dp          7.0”  tablet 1024x600 mdpi
+    -->
+
+    <dimen name="dashboard_rehber_margin_top">50dp</dimen>
+    <dimen name="dashboard_button_margin_left">30dp</dimen>
+    <dimen name="dashboard_rehber_margin_left">20dp</dimen>
+    <dimen name="banner_text_size">40sp</dimen>
+    <dimen name="yeni_kayit_btn_kayiekle">26sp</dimen>
+    <dimen name="yeni_kayit_txtview">26sp</dimen>
+    <dimen name="yeni_kayit_banner_size">21sp</dimen>
+    <dimen name="dashboard_text_size">25sp</dimen>
+    <dimen name="edt_margin_top">15dp</dimen>
+    <dimen name="edt_coma_size">15sp</dimen>
+    <dimen name="edt_size_width">40dp</dimen>
+    <dimen name="txt_kitap_duzenle">20sp</dimen>
+
+</resources>

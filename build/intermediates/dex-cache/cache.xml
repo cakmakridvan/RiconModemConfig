@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a14715ee2c2e368a687c60d836f383dbb60788b6">
+        <dex dex="/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8ce886e1f882b131e8bb90da104bad74e6e7c814/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f95d930d57a093cbcade9b415e3d83e77e6cc54f/classes.dex" />
+    </item>
+
+</items>

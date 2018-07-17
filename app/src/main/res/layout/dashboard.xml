@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    android:id="@+id/transitions_container"
+    >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#A4A4A4"
+        android:gravity="center"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ricon_logo"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sms Kurulum Platformu"
+            android:textSize="20sp"
+            android:textColor="#000000"
+
+            />
+
+
+    </LinearLayout>
+<!--
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+-->
+
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/dashboard_rehber_margin_left"
+            android:layout_marginTop="@dimen/dashboard_rehber_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rehber2_icon"
+                />
+
+            <Button
+                android:background="@drawable/main_custom_button"
+                android:id="@+id/btn_rehber"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="Rehber"
+                android:textSize="@dimen/dashboard_text_size" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dashboard_button_margin_left"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kurulum_icon" />
+
+        <Button
+            android:background="@drawable/main_custom_button"
+            android:id="@+id/btn_tam_kurulum"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="Tam Kurulum"
+            android:textSize="@dimen/dashboard_text_size"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dashboard_button_margin_left"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parametre_icon" />
+
+        <Button
+            android:background="@drawable/main_custom_button"
+            android:id="@+id/btn_parametre"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="Parametre Değiştir"
+            android:textSize="@dimen/dashboard_text_size"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dashboard_button_margin_left"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/control" />
+
+        <Button
+            android:background="@drawable/main_custom_button"
+            android:id="@+id/btn_durum_sorgula"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:text="Durum Sorgula"
+            android:textSize="@dimen/dashboard_text_size"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:background="@drawable/main_custom_button"
+        android:id="@+id/btn_cikis"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Çıkış"
+        android:textSize="@dimen/dashboard_text_size" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Transitions are awesome!"
+        android:visibility="gone"/>
+
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_white_24dp" />
+
+-->
+
+</LinearLayout>

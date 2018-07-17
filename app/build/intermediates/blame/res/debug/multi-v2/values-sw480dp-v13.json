@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw480dp-v13/values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/res/values-sw480dp/dimens.xml",
+                    "from": {
+                        "startLines": "11,13,12,14,15,10,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "335,431,386,476,522,281,176,231",
+                        "endColumns": "50,44,44,45,48,53,54,49",
+                        "endOffsets": "381,471,426,517,566,330,226,276"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,151,196,242,291,345,400",
+                        "endColumns": "50,44,44,45,48,53,54,49",
+                        "endOffsets": "101,146,191,237,286,340,395,445"
+                    }
+                }
+            ]
+        }
+    ]
+}

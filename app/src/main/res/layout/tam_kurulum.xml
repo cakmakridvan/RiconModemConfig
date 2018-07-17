@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tam_kurulum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#A4A4A4"
+        android:gravity="center"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ricon_logo"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sms Kurulum Platformu"
+            android:textSize="20sp"
+            android:textColor="#000000"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tam Kurulum"
+            android:textSize="@dimen/banner_text_size"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        >
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasyon Seç: "
+        android:textSize="16sp"
+        android:textColor="#000000"
+
+        />
+<!--
+        <Spinner
+            android:id="@+id/spn_lokasyon_adları"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+-->
+
+        <searchablespinnermine.SearchableSpinner
+            android:background="@drawable/rect_edt_txt"
+            android:id="@+id/search_spinner_tamkurulum"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/colleges"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="APN"
+        android:layout_marginLeft="15dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#A4A4A4"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="APN Adı:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:maxLines="1"
+            android:inputType="textMultiLine"
+            android:id="@+id/edt_apn_adi"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#A4A4A4"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="NAT Mode:"
+            />
+
+        <Spinner
+            android:background="@drawable/rect_edt_txt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_nat_mode"
+            android:layout_marginLeft="8dp"
+            >
+        </Spinner>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="#A4A4A4"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Kullanıcı Adı:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textMultiLine"
+            android:id="@+id/edt_kullanici_adi"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#A4A4A4"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Parola:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:maxLines="1"
+            android:inputType="textMultiLine"
+            android:id="@+id/edt_parola"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="LAN"
+        android:layout_marginLeft="15dp"
+        />
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#A4A4A4"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Router LAN IP:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:layout_width="@dimen/edt_size_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:id="@+id/edt_router_lan_ip_1"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/edt_coma_size"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:layout_width="@dimen/edt_size_width"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_router_lan_ip_2"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/edt_coma_size"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:layout_width="@dimen/edt_size_width"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_router_lan_ip_3"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/edt_coma_size"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:layout_width="@dimen/edt_size_width"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_router_lan_ip_4"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/edt_coma_size"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="/"
+
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_width="@dimen/edt_size_width"
+            android:layout_height="wrap_content"
+            android:maxLength="2"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_router_lan_ip_subnet_mask"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="M2M Yönetim Sunucusu"
+        android:layout_marginLeft="15dp"
+        />
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#A4A4A4"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Sunucu IP Adresi:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:id="@+id/edt_sunucu_ip_1"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_sunucu_ip_2"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_sunucu_ip_3"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="."
+            android:layout_marginLeft="2dp"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:maxLength="3"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:id="@+id/edt_sunucu_ip_4"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#A4A4A4"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Port:"
+            />
+
+        <EditText
+            android:padding="6dp"
+            android:background="@drawable/custom_edit"
+            android:textStyle="bold"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:id="@+id/edt_port"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:layout_gravity="center"
+        android:id="@+id/btn_gonder"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Gönder"
+        />
+
+
+    <!--
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/txt_cep_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="...." />
+    -->
+
+</LinearLayout>

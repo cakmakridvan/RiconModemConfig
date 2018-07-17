@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+          values-xxxhdpi           5.5 1440x2560 xxxhdpi
+
+-->
+
+    <dimen name="yeni_kayit_btn_kayiekle">20sp</dimen>
+    <dimen name="yeni_kayit_txtview">20sp</dimen>
+    <dimen name="yeni_kayit_banner_size">20sp</dimen>
+    <dimen name="dashboard_text_size">23sp</dimen>
+    <dimen name="edt_margin_top">5dp</dimen>
+    <dimen name="edt_coma_size">15sp</dimen>
+    <dimen name="edt_size_width">40dp</dimen>
+    <dimen name="txt_kitap_duzenle">18sp</dimen>
+
+</resources>

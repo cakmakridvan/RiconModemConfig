@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         values-sw720dp          10.1” tablet 1280x800  mdpi
+                                 8.9   tablet 2048x1536 xhdpi
+                                 9.9   tablet 2560x1800 xhdpi
+    -->
+
+    <dimen name="yeni_kayit_btn_kayiekle">46sp</dimen>
+    <dimen name="yeni_kayit_txtview">30sp</dimen>
+    <dimen name="yeni_kayit_banner_size">25sp</dimen>
+    <dimen name="dashboard_text_size">26sp</dimen>
+    <dimen name="edt_margin_top">15dp</dimen>
+    <dimen name="edt_coma_size">15sp</dimen>
+    <dimen name="edt_size_width">40dp</dimen>
+
+</resources>

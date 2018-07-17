@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/res/values-hdpi/dimens.xml",
+                    "from": {
+                        "startLines": "11,13,12,14,15,10,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "333,429,384,474,520,279,174,229",
+                        "endColumns": "50,44,44,45,48,53,54,49",
+                        "endOffsets": "379,469,424,515,564,328,224,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,151,196,242,291,345,400",
+                        "endColumns": "50,44,44,45,48,53,54,49",
+                        "endOffsets": "101,146,191,237,286,340,395,445"
+                    }
+                },
+                {
+                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "450",
+                        "endLines": "14",
+                        "endColumns": "13",
+                        "endOffsets": "722"
+                    }
+                }
+            ]
+        }
+    ]
+}

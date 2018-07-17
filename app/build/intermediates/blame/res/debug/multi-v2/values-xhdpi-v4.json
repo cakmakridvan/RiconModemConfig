@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/res/values-xhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "11,13,12,14,15,10,8,9",
+                        "startColumns": "4,4,4,4,3,4,4,4",
+                        "startOffsets": "328,424,379,469,514,274,169,224",
+                        "endColumns": "50,44,44,45,47,53,54,49",
+                        "endOffsets": "374,464,419,510,558,323,219,269"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,151,196,242,291,345,400",
+                        "endColumns": "50,44,44,45,48,53,54,49",
+                        "endOffsets": "101,146,191,237,286,340,395,445"
+                    }
+                }
+            ]
+        }
+    ]
+}
