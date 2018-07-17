@@ -14,7 +14,7 @@ import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
 
-import com.mobilhanem.sqlliteexample.R;
+import com.database.R;
 
 import java.util.ArrayList;
 import java.util.List;

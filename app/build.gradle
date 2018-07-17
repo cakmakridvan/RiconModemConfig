@@ -5,7 +5,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.mobilhanem.sqlliteexample"
+        applicationId "com.database"
         minSdkVersion 16
         targetSdkVersion 26
     }

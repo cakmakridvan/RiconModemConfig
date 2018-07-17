@@ -775,7 +775,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d6cd3b6a-0cc8-4980-945e-e6d718954f9c</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">c47f624d-8431-4365-8a49-340cfd7986af</string>
     <string name="ekle">Kitap Ekle</string>
     <string name="hello_world">Hello world!</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>

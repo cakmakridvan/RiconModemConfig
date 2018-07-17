@@ -27,7 +27,7 @@ INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 	package
-		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:3:5-44
+		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:3:5-27
 		INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -360,7 +360,7 @@ action#android.intent.action.TamKurulum
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:158:17-75
 	android:name
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:158:25-72
-activity#com.mobilhanem.sqllitedatabase.MainActivity
+activity#com.database.MainActivity
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:165:9-176:20
 	android:screenOrientation
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:168:13-49
@@ -369,14 +369,14 @@ ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src
 	android:configChanges
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:167:13-48
 	android:name
-		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:169:13-71
+		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:169:13-53
 intent-filter#action:name:android.intent.action.MAINACTIVITY+category:name:android.intent.category.DEFAULT
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:171:13-175:29
 action#android.intent.action.MAINACTIVITY
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:172:17-77
 	android:name
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:172:25-74
-activity#com.mobilhanem.sqllitedatabase.KitapEkle
+activity#com.database.KitapEkle
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:177:9-185:20
 	android:screenOrientation
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:179:13-49
@@ -385,14 +385,14 @@ ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src
 	android:configChanges
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:178:13-48
 	android:name
-		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:180:13-68
+		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:180:13-50
 meta-data#android.support.UI_OPTIONS
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:183:13-184:63
 	android:value
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:184:20-60
 	android:name
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:183:24-65
-activity#com.mobilhanem.sqllitedatabase.KitapDetay
+activity#com.database.KitapDetay
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:186:10-195:20
 	android:screenOrientation
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:189:14-50
@@ -403,8 +403,8 @@ ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src
 	android:theme
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:187:14-61
 	android:name
-		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:190:13-69
-activity#com.mobilhanem.sqllitedatabase.KitapDuzenle
+		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:190:13-51
+activity#com.database.KitapDuzenle
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:196:10-205:20
 	android:screenOrientation
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:199:14-50
@@ -415,7 +415,7 @@ ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src
 	android:theme
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:197:14-61
 	android:name
-		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:200:13-71
+		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:200:13-53
 activity#searchablespinnermine.Mainm
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:207:9-216:20
 	android:screenOrientation

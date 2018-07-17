@@ -1,48 +1,29 @@
 package routerconfigration;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
-import android.graphics.Matrix;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.text.Layout;
-import android.util.DisplayMetrics;
 import android.view.View;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.animation.RotateAnimation;
-import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 import main.application.MyApplicaiton;
-import searchablespinnermine.Mainm;
 import sms.ConnectivityChangeReceiver;
 
-import com.mobilhanem.sqllitedatabase.MainActivity;
-import com.mobilhanem.sqlliteexample.R;
+import com.database.R;
 
-import static android.R.attr.angle;
-import static android.R.attr.button;
-import static android.R.attr.pivotX;
-import static android.R.attr.pivotY;
-import static android.R.attr.rotation;
-import static android.R.attr.visible;
-import static com.mobilhanem.sqlliteexample.R.id.btn_cikis;
-import static com.mobilhanem.sqlliteexample.R.id.btn_rehber;
-import static com.mobilhanem.sqlliteexample.R.id.imageView;
-import static com.mobilhanem.sqlliteexample.R.id.transitions_container;
+import static com.database.R.id.btn_cikis;
+import static com.database.R.id.transitions_container;
 
 /**
  * Created by kaya on 21/08/17.

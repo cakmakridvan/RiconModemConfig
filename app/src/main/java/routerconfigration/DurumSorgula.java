@@ -22,8 +22,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -41,8 +39,8 @@ import sms.ConnectivityChangeReceiver;
 /**
  * Created by kaya on 22/08/17.
  */
-import com.mobilhanem.sqllitedatabase.Database;
-import com.mobilhanem.sqlliteexample.R;
+import com.database.Database;
+import com.database.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

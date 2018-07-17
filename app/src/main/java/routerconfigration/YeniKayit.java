@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 
 
-import com.mobilhanem.sqlliteexample.R;
+import com.database.R;
 /**
  * Created by kaya on 21/08/17.
  */

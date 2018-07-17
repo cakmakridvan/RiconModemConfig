@@ -32,14 +32,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobilhanem.sqllitedatabase.Database;
-import com.mobilhanem.sqlliteexample.R;
+import com.database.Database;
+import com.database.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Timer;
-import java.util.TimerTask;
 
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;

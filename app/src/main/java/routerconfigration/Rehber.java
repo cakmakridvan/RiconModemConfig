@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 
-import com.mobilhanem.sqllitedatabase.KitapEkle;
-import com.mobilhanem.sqllitedatabase.MainActivity;
-import com.mobilhanem.sqlliteexample.R;
+import com.database.KitapEkle;
+import com.database.MainActivity;
+import com.database.R;
 
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;

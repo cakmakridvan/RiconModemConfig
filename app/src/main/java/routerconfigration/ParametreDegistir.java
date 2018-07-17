@@ -20,7 +20,7 @@ import sms.ConnectivityChangeReceiver;
  * Created by kaya on 22/08/17.
  */
 
-import com.mobilhanem.sqlliteexample.R;
+import com.database.R;
 
 
 
