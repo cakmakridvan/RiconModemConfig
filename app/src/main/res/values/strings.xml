@@ -4,5 +4,6 @@
     <string name="app_name">Router Konfigrasyon</string>
     <string name="hello_world">Hello world!</string>
     <string name="ekle">Kitap Ekle</string>
+    <string name="toast_msg">Lokasyon Adı kayıtlı zaten</string>
 
 </resources>

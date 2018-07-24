@@ -8,6 +8,8 @@ android {
         applicationId "com.database"
         minSdkVersion 16
         targetSdkVersion 26
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -32,4 +34,11 @@ dependencies {
     compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
         transitive = true;
     }
+
+    implementation 'com.android.support:support-annotations:27.1.1'
+
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

@@ -21,6 +21,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -154,6 +155,31 @@ public class TamKurulum extends AppCompatActivity implements View.OnClickListene
 
         // Inside OnCreate Method
         registerReceiver(broadcastReceiver, new IntentFilter("broadCastName"));
+
+        router_lan_ip_1.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+                String ip1 = router_lan_ip_1.getText().toString();
+
+                if(ip1.length() == 3) {
+                    router_lan_ip_2.requestFocus();
+                }
+                return false;
+            }
+        });
+
+        router_lan_ip_2.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                String ip2 = router_lan_ip_2.getText().toString();
+
+                if(ip2.length() == 3) {
+                    router_lan_ip_3.requestFocus();
+                }
+                return false;
+            }
+        });
 
 
 /*
