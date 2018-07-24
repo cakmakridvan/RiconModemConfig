@@ -4,7 +4,7 @@
             "outputFile": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/res/values-v16/values-v16.xml",
+                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/78453982519a5f2ce8537052d80a14e3/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/res/values-v16/values-v16.xml",
+                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/0b74657c65e2a513e945abda0bb6fb49/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,7 +4,7 @@
             "outputFile": "/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/res/values-v17/values-v17.xml",
+                    "source": "/Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/78453982519a5f2ce8537052d80a14e3/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

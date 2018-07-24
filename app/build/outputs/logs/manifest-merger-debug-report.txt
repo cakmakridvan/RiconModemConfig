@@ -5,24 +5,24 @@ INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ca460c45c5f10eeca07177cbc5a38011/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:design:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-27.0.0.aar/cc8f150fc902fba2dd2f06a4eeb2ce0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/4a692f4e010063f3b26acb46099c6960/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/78453982519a5f2ce8537052d80a14e3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/5d60b46af53563bf4deef15f9fc30607/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:multidex:1.0.1] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/multidex-1.0.1.aar/c2cfe97703d45748fc9c998acf3bdd8f/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/32b53bcfff33fc0ab4068fd7949f5a1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c062e53717769d8e16e5a28060480fdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/dabfb5fc1dddefdb61c06992f92d313f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/969f5bc6840041f1fb14487a8e69a6d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/dce52ca3c3b4f5f32961384adfd17efa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6fc0e20f0b55d6f6d5e989af5ea9f626/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/b1274be018a9b8b1e28068ad6459cc9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-27.0.0.aar/b54b598f3b1252c5549d89b7c57b5039/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/0b74657c65e2a513e945abda0bb6fb49/AndroidManifest.xml:17:1-22:12
 MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/beta-1.2.5.aar/4e691573fe3b4fc7ebaf6d46a272f7b3/AndroidManifest.xml:2:1-13:12
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/b0441bb9c0efc1efb9beaf4a88b83425/AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/answers-1.3.13.aar/42bf29a7e28171dd471751c6f6b1d4af/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/fabric-1.3.17.aar/95b809852b0c70592ce9c81ca1ef7949/AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:17:1-30:12
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:2:1-225:12
@@ -84,34 +84,32 @@ INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:16:5-18:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ca460c45c5f10eeca07177cbc5a38011/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ca460c45c5f10eeca07177cbc5a38011/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-27.0.0.aar/cc8f150fc902fba2dd2f06a4eeb2ce0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-27.0.0.aar/cc8f150fc902fba2dd2f06a4eeb2ce0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/4a692f4e010063f3b26acb46099c6960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/4a692f4e010063f3b26acb46099c6960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/78453982519a5f2ce8537052d80a14e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/78453982519a5f2ce8537052d80a14e3/AndroidManifest.xml:20:5-44
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/5d60b46af53563bf4deef15f9fc30607/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/5d60b46af53563bf4deef15f9fc30607/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:multidex:1.0.1] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/multidex-1.0.1.aar/c2cfe97703d45748fc9c998acf3bdd8f/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:multidex:1.0.1] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/multidex-1.0.1.aar/c2cfe97703d45748fc9c998acf3bdd8f/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/32b53bcfff33fc0ab4068fd7949f5a1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/32b53bcfff33fc0ab4068fd7949f5a1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c062e53717769d8e16e5a28060480fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c062e53717769d8e16e5a28060480fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/dabfb5fc1dddefdb61c06992f92d313f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/dabfb5fc1dddefdb61c06992f92d313f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/969f5bc6840041f1fb14487a8e69a6d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/969f5bc6840041f1fb14487a8e69a6d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/dce52ca3c3b4f5f32961384adfd17efa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/dce52ca3c3b4f5f32961384adfd17efa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6fc0e20f0b55d6f6d5e989af5ea9f626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/6fc0e20f0b55d6f6d5e989af5ea9f626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/b1274be018a9b8b1e28068ad6459cc9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/b1274be018a9b8b1e28068ad6459cc9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-27.0.0.aar/b54b598f3b1252c5549d89b7c57b5039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-27.0.0.aar/b54b598f3b1252c5549d89b7c57b5039/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/0b74657c65e2a513e945abda0bb6fb49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/0b74657c65e2a513e945abda0bb6fb49/AndroidManifest.xml:20:5-44
 MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/beta-1.2.5.aar/4e691573fe3b4fc7ebaf6d46a272f7b3/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/beta-1.2.5.aar/4e691573fe3b4fc7ebaf6d46a272f7b3/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/b0441bb9c0efc1efb9beaf4a88b83425/AndroidManifest.xml:50:5-43
@@ -120,10 +118,10 @@ MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/kaya/Downloads/g
 MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/answers-1.3.13.aar/42bf29a7e28171dd471751c6f6b1d4af/AndroidManifest.xml:7:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/fabric-1.3.17.aar/95b809852b0c70592ce9c81ca1ef7949/AndroidManifest.xml:27:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/fabric-1.3.17.aar/95b809852b0c70592ce9c81ca1ef7949/AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:16:5-18:41
 INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:16:5-18:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:18:9-38
 		INJECTED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml
@@ -136,32 +134,8 @@ application
 ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:20:5-223:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ca460c45c5f10eeca07177cbc5a38011/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ca460c45c5f10eeca07177cbc5a38011/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:25:5-29:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/5d60b46af53563bf4deef15f9fc30607/AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/5d60b46af53563bf4deef15f9fc30607/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/beta-1.2.5.aar/4e691573fe3b4fc7ebaf6d46a272f7b3/AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/beta-1.2.5.aar/4e691573fe3b4fc7ebaf6d46a272f7b3/AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/b0441bb9c0efc1efb9beaf4a88b83425/AndroidManifest.xml:54:5-20
@@ -170,6 +144,8 @@ MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/kaya/Downloads/g
 MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/answers-1.3.13.aar/42bf29a7e28171dd471751c6f6b1d4af/AndroidManifest.xml:11:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/fabric-1.3.17.aar/95b809852b0c70592ce9c81ca1ef7949/AndroidManifest.xml:31:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/fabric-1.3.17.aar/95b809852b0c70592ce9c81ca1ef7949/AndroidManifest.xml:31:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:25:9-35
 	android:label
@@ -434,31 +410,9 @@ ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:220:13-69
 	android:name
 		ADDED from /Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/src/main/AndroidManifest.xml:219:13-44
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/22d1dcbe3746d20615b5c86b1bd75034/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/transition-26.0.0.aar/0310d871d16d1060c12dff2f0d1471f4/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/fe7bea445e698576d210cfa9ed149cca/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/795cf33f7ec47129a192b06678b898db/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/b9a16dba9cf8d613bc815c9ee5e191db/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/a3105a44a9e934011ab986d1a7789ed4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/51caf0c3e08240380be399ec09865ab4/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/441ef5019a16f6f96135050b12731e46/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/3c6fa697d7938971de69fcfeba455cb6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/ce34089bc70066cc9f0ee73be36ae643/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/4bab9474f0d4ee7dba3e2f463584a7f9/AndroidManifest.xml:26:9-28:38
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:28:13-35
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [com.android.support:design:26.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/design-26.0.0.aar/6a0f949fbe42e8cbbf13031ae7ecc609/AndroidManifest.xml:27:13-51
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kaya/Downloads/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d06f55478a471aeca71365e40adac6b8/AndroidManifest.xml:26:13-58
