@@ -343,12 +343,66 @@ public class ApnAyarlari extends AppCompatActivity implements View.OnClickListen
                 }
                 else{
 
-                    if(get_apn_name.matches("") || get_apn_username.matches("") || get_apn_password.matches("")){
+                    if(get_apn_name.matches("") && get_apn_username.matches("") && get_apn_password.matches("")){
 
 
                         apn_msg.append(";;;");
 
-                    }else {
+                    }else if(get_apn_name.matches("") && get_apn_username.matches("") && !get_apn_password.matches("")){
+
+                        apn_msg.append(";;");
+                        apn_msg.append(";");
+                        apn_msg.append(get_apn_password);
+
+                    }else if(get_apn_name.matches("") && !get_apn_username.matches("") && !get_apn_password.matches("")){
+
+                        apn_msg.append(";;");
+                        apn_msg.append(get_apn_username);
+                        apn_msg.append(";");
+                        apn_msg.append(get_apn_password);
+
+                    }else if(get_apn_name.matches("") && !get_apn_username.matches("") && get_apn_password.matches("")){
+
+                        apn_msg.append(";;");
+                        apn_msg.append(get_apn_username);
+                        apn_msg.append(";");
+
+                    }else if(!get_apn_name.matches("") && get_apn_username.matches("") && get_apn_password.matches("")){
+
+                        apn_msg.append(get_apn_name);
+                        apn_msg.append(";;");
+                        apn_msg.append(";");
+
+                    }else if(!get_apn_name.matches("") && !get_apn_username.matches("") && get_apn_password.matches("")){
+
+                        apn_msg.append(get_apn_name);
+                        apn_msg.append(";;");
+                        apn_msg.append(get_apn_username);
+                        apn_msg.append(";");
+
+
+                    }else if(get_apn_name.matches("") && !get_apn_username.matches("") && !get_apn_password.matches("")){
+
+                        apn_msg.append(";;");
+                        apn_msg.append(get_apn_username);
+                        apn_msg.append(";");
+                        apn_msg.append(get_apn_password);
+
+                    }else if(!get_apn_name.matches("") && get_apn_username.matches("") && !get_apn_password.matches("")){
+
+                        apn_msg.append(get_apn_name);
+                        apn_msg.append(";;");
+
+                        apn_msg.append(";");
+                        apn_msg.append(get_apn_password);
+
+                    }
+
+
+
+
+
+                    else {
 
                         apn_msg.append(get_apn_name);
                         apn_msg.append(";;");
@@ -392,7 +446,7 @@ public class ApnAyarlari extends AppCompatActivity implements View.OnClickListen
                             apn_gonder.setEnabled(true);
 
                         }
-                    }, 120000);
+                    }, 360000);
 
 
 

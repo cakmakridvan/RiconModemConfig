@@ -1,4 +1,4 @@
-#Tue Jul 24 11:55:53 EET 2018
-base.0=/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/transforms/dexMerger/debug/28
+#Fri Jul 27 17:34:57 EET 2018
+base.0=/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/transforms/dexMerger/debug/11
 path.0=classes.dex
 renamed.0=classes.dex

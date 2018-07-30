@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -203,8 +203,8 @@
             android:name="io.fabric.ApiKey"
             android:value="3c0e90324c7de7a85164233fd0381ff0fbbd590d" />
         <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.0.0" />
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

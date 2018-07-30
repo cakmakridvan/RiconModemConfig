@@ -386,12 +386,65 @@ public class TamKurulum extends AppCompatActivity implements View.OnClickListene
 
                }else{
 
-                   if(get_apn_Adi.matches("") || get_kullanici_Adi.matches("") || get_parola.matches("")){
+                   if(get_apn_Adi.matches("") && get_kullanici_Adi.matches("") && get_parola.matches("")){
 
 
                        apn_message.append(";;;");
 
-                   }else{
+                   }else if(get_apn_Adi.matches("") && !get_kullanici_Adi.matches("") && !get_parola.matches("")){
+
+
+                       apn_message.append(";;");
+                       apn_message.append(get_kullanici_Adi);
+                       apn_message.append(";");
+                       apn_message.append(get_parola);
+
+                   }else if(!get_apn_Adi.matches("") && get_kullanici_Adi.matches("") && !get_parola.matches("")){
+
+                       apn_message.append(get_apn_Adi);
+                       apn_message.append(";;");
+
+                       apn_message.append(";");
+                       apn_message.append(get_parola);
+
+                   }else if(!get_apn_Adi.matches("") && !get_kullanici_Adi.matches("") && get_parola.matches("")){
+
+                       apn_message.append(get_apn_Adi);
+                       apn_message.append(";;");
+                       apn_message.append(get_kullanici_Adi);
+                       apn_message.append(";");
+
+
+                   }else if(get_apn_Adi.matches("") && get_kullanici_Adi.matches("") && !get_parola.matches("")){
+
+                       apn_message.append(";;");
+                       apn_message.append(";");
+                       apn_message.append(get_parola);
+
+
+                   }else if(get_apn_Adi.matches("") && !get_kullanici_Adi.matches("") && get_parola.matches("")){
+
+                       apn_message.append(";;");
+                       apn_message.append(get_kullanici_Adi);
+                       apn_message.append(";");
+
+                   }else if(!get_apn_Adi.matches("") && get_kullanici_Adi.matches("") && get_parola.matches("")){
+
+                       apn_message.append(get_apn_Adi);
+                       apn_message.append(";;");
+                       apn_message.append(";");
+
+                   }else if(get_apn_Adi.matches("") && !get_kullanici_Adi.matches("") && !get_parola.matches("")){
+
+                       apn_message.append(";;");
+                       apn_message.append(get_kullanici_Adi);
+                       apn_message.append(";");
+                       apn_message.append(get_parola);
+
+                   }
+
+
+                   else{
 
                        apn_message.append(get_apn_Adi);
                        apn_message.append(";;");
@@ -430,7 +483,7 @@ public class TamKurulum extends AppCompatActivity implements View.OnClickListene
                            gonder.setEnabled(true);
 
                        }
-                   }, 150000);
+                   }, 360000);
 /*
                    Handler handler1 = new Handler();
                    handler1.postDelayed(new Runnable() {
