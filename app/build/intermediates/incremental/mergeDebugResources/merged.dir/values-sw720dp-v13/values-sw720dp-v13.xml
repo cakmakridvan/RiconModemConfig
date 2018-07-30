@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_text_size">26sp</dimen>
+    <dimen name="edt_coma_size">15sp</dimen>
+    <dimen name="edt_margin_top">15dp</dimen>
+    <dimen name="edt_size_width">40dp</dimen>
+    <dimen name="yeni_kayit_banner_size">25sp</dimen>
+    <dimen name="yeni_kayit_btn_kayiekle">46sp</dimen>
+    <dimen name="yeni_kayit_txtview">30sp</dimen>
+</resources>

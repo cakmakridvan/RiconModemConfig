@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_text_size">18sp</dimen>
+    <dimen name="edt_coma_size">10sp</dimen>
+    <dimen name="edt_margin_top">0dp</dimen>
+    <dimen name="edt_size_width">33dp</dimen>
+    <dimen name="txt_kitap_duzenle">13sp</dimen>
+    <dimen name="yeni_kayit_banner_size">15sp</dimen>
+    <dimen name="yeni_kayit_btn_kayiekle">14sp</dimen>
+    <dimen name="yeni_kayit_txtview">15sp</dimen>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>
