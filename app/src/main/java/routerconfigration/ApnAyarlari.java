@@ -341,6 +341,14 @@ public class ApnAyarlari extends AppCompatActivity implements View.OnClickListen
                         }
                     }, 1000);
                 }
+/*
+                // it doesn't accept special character
+                else if(!get_apn_name.matches("[a-zA-Z0-9. ]*")){
+
+                    final Toast toast_bilgiler = Toast.makeText(getApplicationContext(), "kontrol edin", Toast.LENGTH_SHORT);
+                    toast_bilgiler.show();
+                }
+*/
                 else{
 
                     if(get_apn_name.matches("") && get_apn_username.matches("") && get_apn_password.matches("")){

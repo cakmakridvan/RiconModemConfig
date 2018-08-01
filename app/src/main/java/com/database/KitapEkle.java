@@ -14,11 +14,13 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
@@ -40,6 +42,10 @@ public class KitapEkle extends AppCompatActivity implements ConnectivityChangeRe
 	ArrayAdapter<String> dataAdapter;
 	String lokasyon_state,kod_state,sim_state;
 	Database db;
+	private Spinner spin_model;
+	ArrayAdapter<String> adapter_spin;
+	private List<String> list_spin;
+
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -57,6 +63,17 @@ public class KitapEkle extends AppCompatActivity implements ConnectivityChangeRe
 		e2 = (EditText)findViewById(R.id.editText2);
 		e3 = (EditText)findViewById(R.id.editText3);
 
+		spin_model = findViewById(R.id.spin_kayit_mod);
+
+		list_spin = new ArrayList<String>();
+		list_spin.add("MLTE");
+		list_spin.add("LTE");
+
+		adapter_spin = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,list_spin);
+		adapter_spin.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spin_model.setAdapter(adapter_spin);
+
+
 
 
 
@@ -68,15 +85,19 @@ public class KitapEkle extends AppCompatActivity implements ConnectivityChangeRe
 		b1.setOnClickListener(new View.OnClickListener() {
 			
 			public void onClick(View v) {
-				String adi,yazari,yili,fiyati;
+				String adi,yazari,yili,fiyati,get_spin_model;
 				adi = e1.getText().toString(); //Lokasyon Adı
 				yazari = e2.getText().toString(); //Lokasyon Kodu
 				yili = e3.getText().toString(); //Sim No
+				get_spin_model = spin_model.getSelectedItem().toString();
+
 
 				// make UpperCase
 				adi = adi.trim();
 				yazari = yazari.trim();
 				yili = yili.trim();
+				get_spin_model = get_spin_model.trim();
+
 				//yili = yili.toUpperCase().trim();
 
 				kitap_liste = db.kitaplar();//kitap listesini alıyoruz
@@ -103,7 +124,7 @@ public class KitapEkle extends AppCompatActivity implements ConnectivityChangeRe
 				kod_state = "kod_kayıtlı_değil";
 				sim_state = "sim_kayıtlı_değil";
 
-				if(adi.matches("") || yazari.matches("") || yili.matches("")   ){
+				if(adi.matches("") || yazari.matches("") || yili.matches("") || get_spin_model.matches("")   ){
 				    Toast.makeText(getApplicationContext(), "Tüm Bilgileri Eksiksiz Doldurunuz", Toast.LENGTH_SHORT).show();
 				}else{
 
@@ -147,10 +168,11 @@ public class KitapEkle extends AppCompatActivity implements ConnectivityChangeRe
 					 adi = adi.trim();
 					 yazari = yazari.trim();
 					 yili = yili.trim();
+					 get_spin_model = get_spin_model.trim();
 					 //yili = yili.toLowerCase().trim();
 
 					 Database db = new Database(getApplicationContext());
-					 db.kitapEkle(adi, yazari, yili);//kitap ekledik
+					 db.kitapEkle(adi, yazari, yili,get_spin_model);//kitap ekledik
 					 db.close();
 					 Toast.makeText(getApplicationContext(), "Kaydınız Başarıyla Eklendi.", Toast.LENGTH_SHORT).show();
 					 e1.setText("");

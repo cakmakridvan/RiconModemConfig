@@ -22,6 +22,7 @@ public class Database extends SQLiteOpenHelper {
 	private static String KITAP_ID = "id";
 	private static String KITAP_YAZARI = "yazar";
 	private static String KITAP_BASIM_YILI = "yil";
+	private static String MODEL_ADI = "model_adi";
 
 
 	public Database(Context context) {
@@ -36,7 +37,8 @@ public class Database extends SQLiteOpenHelper {
 				+ KITAP_ADI + " TEXT,"
 				+ KITAP_YAZARI + " TEXT,"
 
-				+ KITAP_BASIM_YILI + " TEXT" + ")";
+				+ KITAP_BASIM_YILI + " TEXT,"
+				+ MODEL_ADI + " TEXT"+ ")";
 		db.execSQL(CREATE_TABLE);
 	}
 
@@ -51,13 +53,14 @@ public class Database extends SQLiteOpenHelper {
 		db.close();
 	}
 
-	public void kitapEkle(String kitap_adi, String kitap_yazari,String kitap_basim_yili) {
+	public void kitapEkle(String kitap_adi, String kitap_yazari,String kitap_basim_yili,String model_name) {
 		//kitapEkle methodu ise adı istende Databese veri eklemek için
 		SQLiteDatabase db = this.getWritableDatabase();
 		ContentValues values = new ContentValues();
 		values.put(KITAP_ADI, kitap_adi);
 		values.put(KITAP_YAZARI, kitap_yazari);
 		values.put(KITAP_BASIM_YILI, kitap_basim_yili);
+		values.put(MODEL_ADI, model_name);
 
 
 		db.insert(TABLE_NAME, null, values);
@@ -83,6 +86,7 @@ public class Database extends SQLiteOpenHelper {
 			kitap.put(KITAP_ADI, cursor.getString(1));
 			kitap.put(KITAP_YAZARI, cursor.getString(2));
 			kitap.put(KITAP_BASIM_YILI, cursor.getString(3));
+			kitap.put(MODEL_ADI, cursor.getString(4));
 
 		}
 		cursor.close();
@@ -119,13 +123,14 @@ public class Database extends SQLiteOpenHelper {
 		return kitaplist;
 	}
 
-	public void kitapDuzenle(String kitap_adi, String kitap_yazari,String kitap_basim_yili,int id) {
+	public void kitapDuzenle(String kitap_adi, String kitap_yazari,String kitap_basim_yili,String model_name,int id) {
 		SQLiteDatabase db = this.getWritableDatabase();
 		//Bu methodda ise var olan veriyi güncelliyoruz(update)
 		ContentValues values = new ContentValues();
 		values.put(KITAP_ADI, kitap_adi);
 		values.put(KITAP_YAZARI, kitap_yazari);
 		values.put(KITAP_BASIM_YILI, kitap_basim_yili);
+		values.put(MODEL_ADI, model_name);
 
 
 		// updating row

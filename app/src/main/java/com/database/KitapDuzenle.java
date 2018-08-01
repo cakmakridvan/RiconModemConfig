@@ -2,6 +2,7 @@ package com.database;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import com.database.R;
 
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
@@ -22,7 +24,7 @@ public class KitapDuzenle extends Activity {
 	Button b1;
 	EditText e1,e2,e3,e4;
 	int id;
-	String get_startup_location_name,get_startup_location_code,get_startup_sim_no;
+	String get_startup_location_name,get_startup_location_code,get_startup_sim_no,get_startup_model_name;
 	String lokasyon_state_duzenle,kod_state_duzenle,sim_state_duzenle;
 
 	// DataBase connection variable
@@ -34,6 +36,9 @@ public class KitapDuzenle extends Activity {
 	String mobil_no;
 	ArrayAdapter<String> dataAdapter;
 	Database db;
+	private Spinner spin_model;
+	ArrayAdapter<String> adapter_spin;
+	private List<String> list_spin;
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -53,6 +58,8 @@ public class KitapDuzenle extends Activity {
 		e2 = (EditText)findViewById(R.id.editText2);
 		e3 = (EditText)findViewById(R.id.editText3);
 		//e4 = (EditText)findViewById(R.id.editText4);
+		spin_model = findViewById(R.id.spin_kayit_mod);
+
 
 
 
@@ -67,29 +74,45 @@ public class KitapDuzenle extends Activity {
 		e3.setText(map.get("yil").toString());
 		//e4.setText(map.get("fiyat").toString());
 
+		list_spin = new ArrayList<String>();
+		//list_spin.add(map.get("model_adi").toString());
+		list_spin.add("MLTE");
+		list_spin.add("LTE");
+
+
+		adapter_spin = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,list_spin);
+		adapter_spin.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spin_model.setAdapter(adapter_spin);
+
+
+
 		get_startup_location_name = e1.getText().toString();
 		get_startup_location_code = e2.getText().toString();
 		get_startup_sim_no = e3.getText().toString();
+		get_startup_model_name = spin_model.getSelectedItem().toString();
 
 		// make UpperCase and trim()
 		get_startup_location_name = get_startup_location_name.toUpperCase().trim();
 		get_startup_location_code = get_startup_location_code.toUpperCase().trim();
 		get_startup_sim_no = get_startup_sim_no.toUpperCase().trim();
+		get_startup_model_name = get_startup_model_name.toUpperCase().trim();
 
 		b1.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
-				String adi,yazari,yili,fiyati;
+				String adi,yazari,yili,fiyati,get_spin_model;
 				adi = e1.getText().toString();
 				yazari = e2.getText().toString();
 				yili = e3.getText().toString();
 				//fiyati = e4.getText().toString();
+				get_spin_model = spin_model.getSelectedItem().toString();
 
 				// make UpperCase and trim()
 				adi = adi.trim();
 				yazari = yazari.trim();
 				yili = yili.trim();
 				//yili = yili.toUpperCase().trim();
+				get_spin_model = get_spin_model.trim();
 
 				lokasyon_state_duzenle = "kayıtlı_degil";
 				kod_state_duzenle = "kod_kayıtlı_değil";
@@ -125,9 +148,10 @@ public class KitapDuzenle extends Activity {
 					adi = adi.toLowerCase().trim();
 					yazari = yazari.toLowerCase().trim();
 					yili = yili.toLowerCase().trim();
+					get_spin_model = get_spin_model.trim();
 
 		//			db = new Database(getApplicationContext());
-					db.kitapDuzenle(adi, yazari, yili,id);//gönderdiğimiz id li kitabın değerlerini güncelledik.
+					db.kitapDuzenle(adi, yazari, yili,get_spin_model,id);//gönderdiğimiz id li kitabın değerlerini güncelledik.
 					db.close();
 
 					Toast.makeText(getApplicationContext(), "Kaydınız Başarıyla Düzenlendi.", Toast.LENGTH_SHORT).show();
@@ -190,10 +214,11 @@ public class KitapDuzenle extends Activity {
 						adi = adi.trim();
 						yazari = yazari.trim();
 						yili = yili.trim();
+						get_spin_model = get_spin_model.trim();
 						//yili = yili.toLowerCase().trim();
 
 						Database db = new Database(getApplicationContext());
-						db.kitapDuzenle(adi, yazari, yili,id);//gˆnderdiimiz id li kitab˝n deperlerini g¸ncelledik.
+						db.kitapDuzenle(adi, yazari, yili,get_spin_model,id);//gˆnderdiimiz id li kitab˝n deperlerini g¸ncelledik.
 						db.close();
 
 						Toast.makeText(getApplicationContext(), "Kaydınız Başarıyla Düzenlendi.", Toast.LENGTH_SHORT).show();

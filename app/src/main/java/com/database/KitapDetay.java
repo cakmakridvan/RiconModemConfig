@@ -1,6 +1,7 @@
 package com.database;
 
 import java.util.HashMap;
+import java.util.List;
 
 import com.database.R;
 
@@ -14,8 +15,10 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,8 +29,12 @@ import io.fabric.sdk.android.Fabric;
 
 public class KitapDetay extends Activity {
 	Button b1,b2;
-	TextView t1,t2,t3;
+	TextView t1,t2,t3,t4;
 	int id;
+	private Spinner spin_model;
+	ArrayAdapter<String> adapter_spin;
+	private List<String> list_spin;
+
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Fabric.with(this, new Crashlytics());
@@ -43,6 +50,7 @@ public class KitapDetay extends Activity {
 		t1 = (TextView)findViewById(R.id.adi);
 		t2 = (TextView)findViewById(R.id.yazari);
 		t3 = (TextView)findViewById(R.id.yili);
+		t4 = findViewById(R.id.model);
 
 
 		Intent intent=getIntent();
@@ -54,6 +62,7 @@ public class KitapDetay extends Activity {
 		t1.setText(map.get("kitap_adi"));
 		t2.setText(map.get("yazar").toString());
 		t3.setText(map.get("yil").toString());
+		t4.setText(map.get("model_adi").toString());
 
 		
 		
