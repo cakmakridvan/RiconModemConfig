@@ -62,7 +62,7 @@
 
 
         <LinearLayout
-            android:layout_marginLeft="@dimen/dashboard_rehber_margin_left"
+            android:layout_marginLeft="@dimen/dashboard_button_margin_left"
             android:layout_marginTop="@dimen/dashboard_rehber_margin_top"
             android:layout_width="match_parent"
             android:layout_height="80dp"

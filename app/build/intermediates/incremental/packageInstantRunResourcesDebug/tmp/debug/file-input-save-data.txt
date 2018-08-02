@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 01 18:16:26 EET 2018
+#Thu Aug 02 10:29:29 EET 2018
 0.baseType=DIRECTORY
 0.base=/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/assets/debug
 0.path=crashlytics-build.properties

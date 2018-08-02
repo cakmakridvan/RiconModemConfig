@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 01 18:16:27 EET 2018
+#Thu Aug 02 10:29:34 EET 2018
 2.base=/Users/kaya/Downloads/SQLİTE/SQLiteDatabase/RiconModemConfig/app/build/intermediates/transforms/dexMerger/debug/11
 0.path=classes.dex
 2.baseType=DIRECTORY
